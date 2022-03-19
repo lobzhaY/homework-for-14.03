@@ -1,0 +1,7 @@
+<div class="wrapper">
+    <p *ngFor="let info of generalInformationAboutUserWork"><span>{{info.key}}</span> {{info.meaning}}</p>
+    <h4>{{jobResponsibilitiesofUser.key}}</h4>
+        <ul>
+            <li *ngFor="let respons of jobResponsibilitiesofUser.responsibilities">{{respons}}</li>
+        </ul>
+</div>
